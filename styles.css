@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4 {
     font-family: "Lato", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -19,7 +19,6 @@ h2 {
 }
 
 h3 {
-    font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
 }
 
@@ -27,10 +26,18 @@ h4 {
     font-size: 1.5em;
 }
 
+i {
+    color: #602080;
+    font-size: 5em;
+}
+
+i:hover {
+    color: #f696f6;
+}
+
 p {
     font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    text-align: justify;
 }
 
 /* Intro */
@@ -185,6 +192,10 @@ nav > ul > li:hover {
     padding-left: 3rem;
 }
 
+.about-text p {
+    text-align: justify;
+}
+
 /* Learn Chinese */
 
 .learn-chn-div {
@@ -228,4 +239,25 @@ nav > ul > li:hover {
     top: 50%;
     transform: translate(0, -50%);
     z-index: 1;
+}
+
+/* Features */
+
+.features-bg {
+    background-color: white;
+}
+
+.features-grid {
+    display: grid;
+    gap: 5%;
+    grid-template-columns: auto auto auto;
+    padding: 7rem 6rem;
+}
+
+.features-grid article {
+    text-align: center;
+}
+
+.features-grid h4 {
+    margin: 1rem 0;
 }
