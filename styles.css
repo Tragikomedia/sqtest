@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.intro-arc {
+    background-color: #602080;
+    height: 40%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20%;
+}
+
+.intro-circle {
+    background-color: #202040;
+    border-radius: 100%;
+    height: 80%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40%;
+    z-index: 2;
+}
+
+.intro-div {
+    background-color: #202040;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+    position: relative;
+}
+
+.intro-img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.intro-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 0.3em;
+    text-align: left;
+    z-index: 3;
+}
+
+.intro-text > h1 {
+    font-family: "Lato", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.intro-text > h3 {
+    font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+nav {
+    align-items: center;
+    background-color: #131325;
+    display: flex;
+    flex-direction: row;
+    font-family: "Lato", Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    padding: 1rem 6rem;
+}
+
+nav > div {
+    color: white;
+    font-size: 2rem;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav > ul > li {
+    color: white;
+    display: inline;
+    font-size: 1.5em;
+    padding-left: 2rem;
+}
+
+nav > ul > li:hover {
+    color: #602080;
+}
+
+.pink-letter {
+    color: #f696f6
+}
+
+.profile-image {
+    border: 1em solid #602080;
+    border-radius: 100%;
+}
