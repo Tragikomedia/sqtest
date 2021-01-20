@@ -4,15 +4,27 @@
     padding: 0;
 }
 
-h1 {
+h1, h2, h4 {
     font-family: "Lato", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
     font-size: 5em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 4em;
     font-weight: bold;
 }
 
 h3 {
     font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
 }
 
 p {
@@ -171,4 +183,49 @@ nav > ul > li:hover {
     flex-direction: column;
     justify-content: space-between;
     padding-left: 3rem;
+}
+
+/* Learn Chinese */
+
+.learn-chn-div {
+    color: white;
+    border-bottom: 0.5rem solid #131325;
+    border-top: 0.5rem solid #131325;
+    position: relative;
+}
+
+.learn-chn-filter {
+    background-color: #602080b2;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.learn-chn-img {
+    display: block;
+    width: 100%;
+}
+
+.learn-chn-text h2 {
+    margin-bottom: 4rem;
+}
+
+.learn-chn-text h2, .learn-chn-text h4 {
+    display: inline-block;
+}
+
+.learn-chn-text {
+    text-align: end;
+}
+
+.learn-chn-text-pos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 1;
 }
