@@ -1,0 +1,72 @@
+@media (max-width: 960px) {
+
+    .intro-div, nav, .features-grid, .opinions-content, .cta-content, .contact-content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    /* Intro */
+    #intro {
+        min-height: initial;
+    }
+    .intro-arc, .intro-circle {
+        display: none;
+    }
+    .intro-div {
+        flex-direction: column;
+    }
+    .intro-text {
+        text-align: center;
+    }
+
+    .intro-img-div {
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    /* About */
+
+    .about-content {
+        padding-right: 2rem;
+    }
+
+    .about-img-div {
+        padding-left: 2rem;
+    }
+
+    /* Opinions*/
+
+    .opinions-content article {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    /* About */
+
+    #about h3{
+        margin-bottom: 1rem;
+    }
+
+    .about-content {
+        padding: 2rem;
+    }
+
+    .about-div {
+        flex-direction: column;
+    }
+
+    .about-img-text {
+        display: inline;
+    }
+
+    .about-img-div {
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .about-text {
+        padding: 0;
+    }
+
+}
