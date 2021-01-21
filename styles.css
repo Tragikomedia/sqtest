@@ -4,8 +4,8 @@
     padding: 0;
 }
 
-h1, h2, h3, h4 {
-    font-family: "Lato", Verdana, Geneva, Tahoma, sans-serif;
+h1, h2, h3, h4, h5 {
+    font-family: "Lato", Verdana, 'Geneva', Tahoma, sans-serif;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 3.5em;
     font-weight: bold;
 }
 
@@ -24,6 +24,10 @@ h3 {
 
 h4 {
     font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.2em;
 }
 
 i {
@@ -80,10 +84,10 @@ p {
 }
 
 .intro-img-div {
+    align-items: flex-end;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
 }
 
 .intro-text {
@@ -101,7 +105,7 @@ nav {
     background-color: #131325;
     display: flex;
     flex-direction: row;
-    font-family: "Lato", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Lato", Verdana, 'Geneva', Tahoma, sans-serif;
     justify-content: space-between;
     padding: 1rem 6rem;
 }
@@ -135,6 +139,8 @@ nav > ul > li:hover {
 .profile-image {
     border: 1em solid #602080;
     border-radius: 100%;
+    min-width: 20rem;
+    width: 50%;
 }
 
 /* About */
@@ -260,4 +266,69 @@ nav > ul > li:hover {
 
 .features-grid h4 {
     margin: 1rem 0;
+}
+
+/* Testimonials */
+
+.opinions-bg {
+    background-color: #202040;
+}
+
+.opinions-content {
+    color: white;
+    display: grid;
+    gap: 5%;
+    grid-template-columns: auto auto auto;
+    padding: 7rem 6rem;
+    text-align: justify;
+}
+
+.opinions-content  article {
+    background-color: #602080;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+}
+
+.opinions-content h5 {
+    margin-top: 1rem;
+    text-align: right;
+}
+
+/* Call-To-Action */
+
+.cta-content {
+    background-color: #602080;
+    color: white;
+    padding: 12rem 6rem;
+    text-align: center;
+}
+
+/* Contact */
+
+.contact-bg {
+    background-color: white;
+}
+
+.contact-content {
+    margin: 10rem 6rem;
+    text-align: center;
+}
+
+.contact-icons {
+    margin-top: 2rem;
+}
+
+.contact-icons i {
+    margin: 0 2%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #202040;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
 }
