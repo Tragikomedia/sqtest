@@ -70,3 +70,149 @@
     }
 
 }
+
+@media (max-width: 700px) {
+    /* Features Opinions */
+    .features-grid, .opinions-content {
+        grid-template-columns: 100%;
+        padding-bottom: 8rem;
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 650px) {
+    h2 {
+        font-size: 2.5em;
+    }
+    /* Navbar */
+    nav {
+        align-items: flex-end;
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-start;
+    }
+    .navbar {
+        background-color: transparent;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 999;
+    }
+    .navbar div {
+        display: none;
+    }
+    .navbar i {
+        display: initial;
+    }
+    .navbar li {
+        margin: 1rem 0;
+    }
+    .navbar ul {
+        align-items: flex-end;
+        display: none;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2.1em;
+    }
+    h3 { 
+        font-size: 1.6em;
+    }
+    /* About */
+    .about-image {
+        max-width: 20rem;
+    }
+    /* Learn Chinese */
+    .learn-chn-text h2 {
+        margin-bottom: 1.5rem;
+    }
+    /* Contact */
+    .contact-icons {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 400px) {
+    h2 {
+        font-size: 1.6em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    /* Intro */
+    .profile-image {
+        min-width: 18rem;
+    }
+    /* About */
+    .about-image {
+        max-width: 18rem;
+    }
+}
+
+/* Large screens */
+
+@media (min-width: 1800px) {
+    h1 {
+        font-size: 7vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+    h4 {
+        font-size: 2.5vw;
+    }
+    h5 {
+        font-size: 2vw;;
+    }
+    i {
+        font-size: 5vw;
+    }
+    p {
+        font-size: 1vw;
+    }
+
+    .intro-div, nav, .features-grid, .opinions-content, .cta-content, .contact-content {
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+
+    /* Nav */
+    nav div {
+        font-size: 2vw;
+    }
+    nav > ul > li {
+        font-size: 1.5vw;
+    }
+
+    .about-content, .about-img-div {
+        padding-bottom: 6vw;
+        padding-top: 6vw;
+    }
+    .about-content {
+        padding-right: 6vw;
+    }
+    .about-image {
+        max-height: 35vw;
+        max-width: 25vw;
+    }
+    .about-img-div {
+        padding-left: 6vw;
+    }
+    .features-grid, .opinions-content, .contact-content {
+        padding-bottom: 7vw;
+        padding-top: 7vw;
+    }
+    .cta-content {
+        padding-bottom: 12vw;
+        padding-top: 12vw;
+    }
+}

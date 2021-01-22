@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background-color: #602080;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: "Lato", Verdana, 'Geneva', Tahoma, sans-serif;
 }
@@ -122,7 +131,15 @@ nav > div {
     font-size: 2rem;
 }
 
-nav > ul {
+.navbar i {
+    color: #f696f6;
+    display: none;
+    font-size: 2rem;
+    padding: 0.2rem;
+    z-index: 999;
+}
+
+.navbar > ul {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -147,7 +164,7 @@ nav > ul > li:hover {
     border: 1em solid #602080;
     border-radius: 100%;
     min-width: 20rem;
-    width: 50%;
+    width: 60%;
 }
 
 /* About */
@@ -191,7 +208,7 @@ nav > ul > li:hover {
 
 .about-image {
     border-radius: 5%;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px black;
     max-height: 35rem;
     max-width: 25rem;
 }
@@ -255,6 +272,8 @@ nav > ul > li:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -303,6 +322,7 @@ nav > ul > li:hover {
 
 .opinions-content  article {
     background-color: #602080;
+    box-shadow: 4px 4px 10px black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -322,6 +342,11 @@ nav > ul > li:hover {
     padding-bottom: 12rem;
     padding-top: 12rem;
     text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.cta-focus {
+    color: #f696f6;
 }
 
 /* Contact */
@@ -347,7 +372,7 @@ nav > ul > li:hover {
 /* Footer */
 
 footer {
-    background-color: #202040;
+    background-color: #602080;
     color: white;
     padding: 1rem 0;
     text-align: center;
